@@ -23,6 +23,9 @@ Redesigned Hacker News Single Page App for Revelio Labs Front End Assignment.
 1. Light and Dark mode
 2. "show more" feature
 3. Persistent state through local storage
+   -- Extras ---
+4. Persistent state through local storage
+5. Responsive Design (mobile layout)
 
 # Getting Started with Create React App
 
