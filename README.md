@@ -1,5 +1,9 @@
 # Hacker News Redesign Front End Assignment
 
+## Description
+
+Redesigned Hacker News Single Page App for Revelio Labs Front End Assignment.
+
 ## Local Installation & Setup
 
 1. clone repo locally
