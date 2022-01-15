@@ -6,7 +6,7 @@ Redesigned Hacker News Single Page App for Revelio Labs Front End Assignment.
 
 ## Local Installation & Setup
 
-1. clone repo locally
+1. clone `master` branch locally
 2. `npm install` to download node modules
 3. `npm start` to start dev server
 
