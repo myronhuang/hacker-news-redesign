@@ -16,6 +16,16 @@ A deployed version of the app can be found here: [https://myronhuang.github.io/h
 
 The code for the deployed version is found in the `deploy` branch. The main difference between `deploy` and `master` is that `deploy` used `HashRouter` while `master` uses `BrowserRouter` for routing. `HashRouter` is used for deployed version because to allow for client-side routing in GitHub pages.
 
+The side effect of this is that routing for the deployed version will include a "#" in the URL while running the source code from `master` locally will not.
+
+For instance:
+
+Deployed version\
+`https://myronhuang.github.io/hacker-news-redesign/#/starred`
+
+`master` code running locally\
+`localhost:3000/starred`
+
 ## Core Features Implemented
 
 1. Mockup implemented with React and Redux
