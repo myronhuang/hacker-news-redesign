@@ -22,6 +22,7 @@ export const Post = ({ itemId }) => {
   if (isSuccess) {
     if (data !== null) {
       let url;
+      let hostname;
 
       let time = calcElapsedTime(data.time);
 
@@ -29,7 +30,12 @@ export const Post = ({ itemId }) => {
         data.score > 1 ? `${data.score} points` : `${data.score} point`;
 
       if (data.url) {
-        url = extractHostname(data.url);
+        // External url
+        url = data.url;
+        hostname = extractHostname(data.url);
+      } else {
+        // Ask HN posts don't have an external URL
+        url = `https://news.ycombinator.com/item?id=${data.id}`;
       }
 
       item = (
@@ -39,14 +45,14 @@ export const Post = ({ itemId }) => {
               className={`${styles.itemURL} ${
                 isLight ? styles.lightFont : styles.darkURL
               }`}
-              href={data.url}
+              href={url}
             >
               {data.title}
             </a>
             <span
               className={`${styles.hostname} ${isLight ? "" : styles.darkFont}`}
             >
-              {url}
+              {hostname}
             </span>
           </p>
           <p className={`${styles.caption} ${!isLight && styles.darkFont}`}>
