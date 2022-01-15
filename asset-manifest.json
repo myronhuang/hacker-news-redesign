@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/hacker-news-redesign/static/css/main.11f046cc.css",
+    "main.js": "/hacker-news-redesign/static/js/main.bbf5fb42.js",
+    "static/js/787.9cdeeea4.chunk.js": "/hacker-news-redesign/static/js/787.9cdeeea4.chunk.js",
+    "static/media/sun.svg": "/hacker-news-redesign/static/media/sun.137cc345e0c766dad446ee90d151a0fe.svg",
+    "index.html": "/hacker-news-redesign/index.html",
+    "static/media/star.svg": "/hacker-news-redesign/static/media/star.e1ff3406e7e96e2ba932647b29d87cf1.svg",
+    "static/media/moon.svg": "/hacker-news-redesign/static/media/moon.3885f2f3fa9a90a3503b9a59f80e3e8c.svg",
+    "static/media/starFill.svg": "/hacker-news-redesign/static/media/starFill.b2eade1b903dfc4232def5c64493b3e9.svg",
+    "main.11f046cc.css.map": "/hacker-news-redesign/static/css/main.11f046cc.css.map",
+    "main.bbf5fb42.js.map": "/hacker-news-redesign/static/js/main.bbf5fb42.js.map",
+    "787.9cdeeea4.chunk.js.map": "/hacker-news-redesign/static/js/787.9cdeeea4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.11f046cc.css",
+    "static/js/main.bbf5fb42.js"
+  ]
+}
