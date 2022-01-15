@@ -1,12 +1,12 @@
 import { createSlice } from "@reduxjs/toolkit";
 import { checkLocalStorage } from "../../utilities/useLocalStorage";
 
-const savedState = checkLocalStorage("starred")
+const savedState = checkLocalStorage("starred");
 
 export const postsSlice = createSlice({
   name: "posts",
   initialState: {
-    starred: savedState === "undefined" ? [] : savedState,
+    starred: savedState === undefined ? [] : savedState,
   },
   reducers: {
     starPost: (state, action) => {
