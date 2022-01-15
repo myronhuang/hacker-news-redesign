@@ -44,6 +44,10 @@
   text-decoration: none;
 }
 
+.lightFont {
+  color: #000000;
+}
+
 .darkFont {
   color: #ffffff;
 }

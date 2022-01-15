@@ -26,7 +26,7 @@ export const Navbar = () => {
                 isActive || loc.pathname === "/"
                   ? styles.active
                   : isLight
-                  ? styles.navLink
+                  ? `${styles.navLink} ${styles.lightFont}`
                   : `${styles.navLink} ${styles.darkFont}`
               }
             >
@@ -41,7 +41,7 @@ export const Navbar = () => {
                 isActive
                   ? styles.active
                   : isLight
-                  ? styles.navLink
+                  ? `${styles.navLink} ${styles.lightFont}`
                   : `${styles.navLink} ${styles.darkFont}`
               }
             >

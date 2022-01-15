@@ -19,7 +19,7 @@ export const Footer = () => {
                 isActive || loc.pathname === "/"
                   ? styles.active
                   : isLight
-                  ? styles.navLink
+                  ? `${styles.navLink} ${styles.lightFont}`
                   : `${styles.navLink} ${styles.darkFont}`
               }
             >
@@ -35,7 +35,7 @@ export const Footer = () => {
                 isActive
                   ? styles.active
                   : isLight
-                  ? styles.navLink
+                  ? `${styles.navLink} ${styles.lightFont}`
                   : `${styles.navLink} ${styles.darkFont}`
               }
             >
