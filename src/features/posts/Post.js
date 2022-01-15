@@ -8,6 +8,7 @@ import { selectStarredPosts, starPost, unstarPost } from "./postsSlice";
 import { selectIsLight } from "../theme/themeSlice";
 
 export const Post = ({ itemId }) => {
+  //RTK Query fetch post data
   const { data, isSuccess, isError, error } = useGetItemByIdQuery(itemId);
 
   const isLight = useSelector(selectIsLight);

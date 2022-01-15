@@ -4,6 +4,7 @@ import styles from "../../styles/PostList.module.css";
 import { Link, useLocation, useParams } from "react-router-dom";
 
 export const PostList = () => {
+  //RTK Query fetch new post list
   const { data, isSuccess, isError, error } = useGetNewPostIdsQuery();
 
   const loc = useLocation();
@@ -13,6 +14,7 @@ export const PostList = () => {
     page = 1;
   }
 
+  //Determine posts to display on current page
   const startIndex = (page - 1) * 12;
   const endIndex = startIndex + 12;
 

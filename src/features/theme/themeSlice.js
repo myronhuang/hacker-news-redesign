@@ -1,9 +1,13 @@
 import { createSlice } from "@reduxjs/toolkit";
+import { checkLocalStorage } from "../../utilities/useLocalStorage";
+
+
+const savedState = checkLocalStorage("isLight");
 
 export const themeSlice = createSlice({
   name: "theme",
   initialState: {
-    isLight: true,
+    isLight: savedState === undefined ? true : savedState,
   },
   reducers: {
     toggleLight: (state, action) => {

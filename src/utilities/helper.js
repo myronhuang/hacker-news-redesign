@@ -1,3 +1,4 @@
+//calculates time elapsed from creation to current.
 export const calcElapsedTime = (seconds) => {
   let time;
   let date = Date.now();
@@ -32,6 +33,7 @@ export const calcElapsedTime = (seconds) => {
   return time;
 };
 
+//Extracts hotname portion of a url
 export const extractHostname = (url) => {
   let element = new URL(url);
   return `(${element.hostname.replace("www.", "")})`;

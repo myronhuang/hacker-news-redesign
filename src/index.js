@@ -9,6 +9,17 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { PostList } from "./features/posts/PostList";
 import { NotFound } from "./components/NotFound";
 import { Starred } from "./features/posts/Starred";
+import {saveStateToLocalStorage} from "./utilities/useLocalStorage";
+
+
+
+store.subscribe(() => {
+  console.log("SUBBED")
+  saveStateToLocalStorage({
+    starred: store.getState().posts.starred,
+    isLight: store.getState().theme.isLight
+  })
+})
 
 ReactDOM.render(
   <React.StrictMode>
