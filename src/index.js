@@ -5,7 +5,7 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { Provider } from "react-redux";
 import store from "./app/store";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Routes, Route, HashRouter } from "react-router-dom";
 import { PostList } from "./features/posts/PostList";
 import { NotFound } from "./components/NotFound";
 import { Starred } from "./features/posts/Starred";
@@ -20,7 +20,7 @@ store.subscribe(() => {
 
 ReactDOM.render(
   <React.StrictMode>
-    <BrowserRouter>
+    <HashRouter>
       <Provider store={store}>
         <Routes>
           <Route path="/" element={<App />}>
@@ -33,7 +33,7 @@ ReactDOM.render(
           </Route>
         </Routes>
       </Provider>
-    </BrowserRouter>
+    </HashRouter>
   </React.StrictMode>,
   document.getElementById("root")
 );
