@@ -4,8 +4,6 @@
 
 Redesigned Hacker News Single Page App for Revelio Labs Front End Assignment.
 
-[Local Installation & Setup](##github-pages-deployment)
-
 ## Local Installation & Setup
 
 1. clone `master` branch locally
