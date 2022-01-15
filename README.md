@@ -10,6 +10,12 @@ Redesigned Hacker News Single Page App for Revelio Labs Front End Assignment.
 2. `npm install` to download node modules
 3. `npm start` to start dev server
 
+## GitHub Pages Deployment
+
+A deployed version of the app can be found here: [https://myronhuang.github.io/hacker-news-redesign/](https://myronhuang.github.io/hacker-news-redesign/)
+
+The code for the deployed version is found in the `deploy` branch. The main difference between `deploy` and `master` is that `deploy` used `HashRouter` while `master` uses `BrowserRouter` for routing. `HashRouter` is used for deployed version because to allow for client-side routing in GitHub pages.
+
 ## Core Features Implemented
 
 1. Mockup implemented with React and Redux
@@ -25,6 +31,7 @@ Redesigned Hacker News Single Page App for Revelio Labs Front End Assignment.
    -- Extras ---
 3. Persistent state through local storage
 4. Responsive Design (mobile layout)
+5. Github Pages Deployment
 
 # Getting Started with Create React App
 
