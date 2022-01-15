@@ -2,9 +2,23 @@
 
 ## Local Installation & Setup
 
-- clone repo locally
-- `npm install` to download node modules
-- `npm start` to start dev server
+1. clone repo locally
+2. `npm install` to download node modules
+3. `npm start` to start dev server
+
+## Core Features Implemented
+
+1. Mockup implemented with React and Redux
+2. Client Side Routing implemented with React Router
+3. Used Official Hacker News API to fetch live data
+4. Starring posts
+5. Linking to starred and detail pages
+
+## Bonus Features Implemented
+
+1. Light and Dark mode
+2. "show more" feature
+3. Persistent state through local storage
 
 # Getting Started with Create React App
 
