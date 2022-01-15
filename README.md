@@ -1,5 +1,11 @@
 # Hacker News Redesign Front End Assignment
 
+## Local Installation & Setup
+
+- clone repo locally
+- `npm install` to download node modules
+- `npm start` to start dev server
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
