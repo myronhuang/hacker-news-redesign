@@ -14,7 +14,7 @@ Redesigned Hacker News Single Page App for Revelio Labs Front End Assignment.
 
 A deployed version of the app can be found here: [https://myronhuang.github.io/hacker-news-redesign/](https://myronhuang.github.io/hacker-news-redesign/)
 
-The code for the deployed version is found in the `deploy` branch. The main difference between `deploy` and `master` is that `deploy` used `HashRouter` while `master` uses `BrowserRouter` for routing. `HashRouter` is used for deployed version to allow for client-side routing in GitHub pages.
+The deployed version is built from the code found in the `deploy` branch. The main difference between `deploy` and `master` is that `deploy` used `HashRouter` while `master` uses `BrowserRouter` for routing. `HashRouter` is used for deployed version to allow for client-side routing in GitHub pages.
 
 The side effect of this is that routing for the deployed version will include a "#" in the URL while running the source code from `master` locally will not.
 
