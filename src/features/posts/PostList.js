@@ -21,12 +21,6 @@ export const PostList = () => {
   let output;
 
   if (isSuccess) {
-    //For Testing
-    // let data = [
-    //   29903557, 29903517, 29903482, 29903473, 29903470, 29903457, 29903449,
-    //   29903443, 29903430, 29903414, 29903409, 29903377, 29903374,
-    // ];
-
     output = data
       .slice(startIndex, endIndex)
       .map((id) => <Post key={id} itemId={id} />);
